@@ -1,0 +1,44 @@
+:root {
+    font-family: "Roboto", sans-serif;
+    background-color: #F2DBC9;
+    overflow: hidden;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url(./img/background.jpg);
+    display: flex;
+    flex: 1;
+    width: 40dvw;
+    height: 110dvh;
+    background-repeat: no-repeat;
+    background-size: 40dvw, 110dvh;
+    justify-content: space-around;
+    align-items: center;
+    margin: -1rem;
+}
+
+.title {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 15rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    color: #fff;
+}
+
+.form-container {
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 2;
+    border: 1px solid black;
+}

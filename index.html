@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-up Form</title>
+    <title>Sign-Up Form</title>
+    <link rel="icon" href="./img/sea.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Quantico&family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <div class="logo">
+        <!-- <img src="img/background.jpg" alt="background image"> -->
+        <div class="title">Beachy Boi</div>
+    </div>
+    <div class="form-container">
+        <div class="top-space"></div>
+        <div class="form">
+            <form action="https://httpbin.org/post" method="post">
+                <fieldset>
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name">
+
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name">
+
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone">
+                        
+                        <label for="email">Email</label>
+                        <input type="email">
+                        
+                        <label for="password">Password</label>
+                        <input type="password" id="password">
+                        
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" id="confirm_password">
+                </fieldset>
+                <button class="submit">Sign up!</button>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
