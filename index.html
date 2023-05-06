@@ -21,23 +21,36 @@
         <div class="form">
             <form action="https://httpbin.org/post" method="post">
                 <fieldset>
-                        <label for="first_name">First Name</label>
-                        <input type="text" id="first_name">
-
-                        <label for="last_name">Last Name</label>
-                        <input type="text" id="last_name">
-
-                        <label for="phone">Phone</label>
-                        <input type="tel" id="phone">
+                    <span id="signup-span">Sign Up Today!</span>
+                    <div class="input-container">
+                        <div class="input-div">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" required>
+                        </div>
+                        <div class="input-div">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" required>
+                        </div>
+                        <div class="input-div">
+                            <label for="phone">Phone</label>
+                            <input type="tel" id="phone" required>
+                        </div>
                         
-                        <label for="email">Email</label>
-                        <input type="email">
+                        <div class="input-div">
+                            <label for="email">Email</label>
+                            <input type="email" required>
+                        </div>
                         
-                        <label for="password">Password</label>
-                        <input type="password" id="password">
+                        <div class="input-div">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" required>
+                        </div>
                         
-                        <label for="confirm_password">Confirm Password</label>
-                        <input type="password" id="confirm_password">
+                        <div class="input-div">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" id="confirm_password" required>
+                        </div>
+                    </div>
                 </fieldset>
                 <button class="submit">Sign up!</button>
             </form>

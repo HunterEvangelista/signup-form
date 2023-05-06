@@ -1,6 +1,6 @@
 :root {
     font-family: "Roboto", sans-serif;
-    background-color: #F2DBC9;
+    background-color: #f2dbc9b5;
     overflow: hidden;
 }
 
@@ -38,7 +38,46 @@ body {
 
 .form-container {
     display: flex;
+    flex-direction: column;
     flex-basis: 0;
     flex-grow: 2;
+    border: 1px solid black;
+    margin-left: 1rem;
+}
+
+fieldset {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #00659E;
+}
+
+#signup-span {
+    align-self: baseline;
+    margin-left: .75rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #00659E;
+}
+
+input {
+    width: 19rem;
+    border: 1px solid #00659E;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 0;
     border: 1px solid black;
 }
