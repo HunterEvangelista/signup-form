@@ -36,12 +36,22 @@ body {
     color: #fff;
 }
 
+.top-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
 .form-container {
     display: flex;
     flex-direction: column;
-    flex-basis: 0;
-    flex-grow: 2;
+    flex: 2;
     margin-left: 1rem;
+    height: 100dvh;
 }
 
 fieldset {
@@ -56,6 +66,7 @@ fieldset {
     align-items: center;
     color: #00659E;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
+    flex: 1;
 }
 
 #signup-span {
@@ -69,9 +80,10 @@ fieldset {
 input {
     appearance: none;
     width: 19rem;
-    border: 2px solid #00659E;
+    border: 1px solid #00659E;
     border-radius: .5rem;
     height: 1.2rem;
+    box-shadow: 0px 2px 4px 0px rgba(0, 16, 27, .25);
 }
 
 .input-container {
@@ -97,4 +109,10 @@ input {
     color: #00659E;
     margin-top: .5rem;
     margin-left: .75rem;
+    cursor: pointer;
+}
+
+.button-container {
+    flex: 1;
+    height: 33dvh;
 }
