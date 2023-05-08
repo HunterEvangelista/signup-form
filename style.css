@@ -41,18 +41,21 @@ body {
     flex-direction: column;
     flex-basis: 0;
     flex-grow: 2;
-    border: 1px solid black;
     margin-left: 1rem;
 }
 
 fieldset {
-    background-color: white;
+    border: none;
+    margin-right: -1rem;
+    margin-left: 0;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     color: #00659E;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, .25);
 }
 
 #signup-span {
@@ -64,8 +67,11 @@ fieldset {
 }
 
 input {
+    appearance: none;
     width: 19rem;
-    border: 1px solid #00659E;
+    border: 2px solid #00659E;
+    border-radius: .5rem;
+    height: 1.2rem;
 }
 
 .input-container {
@@ -79,5 +85,16 @@ input {
     flex-direction: column;
     margin: 1rem;
     padding: 0;
-    border: 1px solid black;
+}
+
+.submit {
+    font-family: inherit;
+    font-size: 1rem;
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #00659E;
+    border-radius: .5rem;
+    color: #00659E;
+    margin-top: .5rem;
+    margin-left: .75rem;
 }
